@@ -1,0 +1,71 @@
+"root;",11.691788
+"root;cellular organisms;",11.541124
+"root;cellular organisms;Bacteria;",11.527681
+"root;cellular organisms;Bacteria;FCB group;",7.173660
+"root;cellular organisms;Bacteria;FCB group;Bacteroidetes/Chlorobi group;",7.173660
+"root;cellular organisms;Bacteria;FCB group;Bacteroidetes/Chlorobi group;Bacteroidetes;",7.172656
+"root;cellular organisms;Bacteria;FCB group;Bacteroidetes/Chlorobi group;Bacteroidetes;Bacteroidia;",7.052745
+"root;cellular organisms;Bacteria;FCB group;Bacteroidetes/Chlorobi group;Bacteroidetes;Bacteroidia;Bacteroidales;",7.052745
+"root;cellular organisms;Bacteria;FCB group;Bacteroidetes/Chlorobi group;Bacteroidetes;Bacteroidia;Bacteroidales;Bacteroidaceae;",5.521754
+"root;cellular organisms;Bacteria;FCB group;Bacteroidetes/Chlorobi group;Bacteroidetes;Bacteroidia;Bacteroidales;Bacteroidaceae;Bacteroides;",5.521754
+"root;cellular organisms;Bacteria;FCB group;Bacteroidetes/Chlorobi group;Bacteroidetes;Bacteroidia;Bacteroidales;Bacteroidaceae;Bacteroides;Bacteroides caccae;",0.066896
+"root;cellular organisms;Bacteria;FCB group;Bacteroidetes/Chlorobi group;Bacteroidetes;Bacteroidia;Bacteroidales;Bacteroidaceae;Bacteroides;Bacteroides caccae;Bacteroides caccae ATCC 43185;",0.016716
+"root;cellular organisms;Bacteria;FCB group;Bacteroidetes/Chlorobi group;Bacteroidetes;Bacteroidia;Bacteroidales;Bacteroidaceae;Bacteroides;Bacteroides dorei;",0.220482
+"root;cellular organisms;Bacteria;FCB group;Bacteroidetes/Chlorobi group;Bacteroidetes;Bacteroidia;Bacteroidales;Bacteroidaceae;Bacteroides;Bacteroides dorei;Bacteroides dorei 5_1_36/D4;",0.016931
+"root;cellular organisms;Bacteria;FCB group;Bacteroidetes/Chlorobi group;Bacteroidetes;Bacteroidia;Bacteroidales;Bacteroidaceae;Bacteroides;Bacteroides dorei;Bacteroides dorei CL03T12C01;",0.014163
+"root;cellular organisms;Bacteria;FCB group;Bacteroidetes/Chlorobi group;Bacteroidetes;Bacteroidia;Bacteroidales;Bacteroidaceae;Bacteroides;Bacteroides dorei;Bacteroides dorei DSM 17855;",0.037429
+"root;cellular organisms;Bacteria;FCB group;Bacteroidetes/Chlorobi group;Bacteroidetes;Bacteroidia;Bacteroidales;Bacteroidaceae;Bacteroides;Bacteroides fragilis;",0.023725
+"root;cellular organisms;Bacteria;FCB group;Bacteroidetes/Chlorobi group;Bacteroidetes;Bacteroidia;Bacteroidales;Bacteroidaceae;Bacteroides;Bacteroides ovatus;",0.016179
+"root;cellular organisms;Bacteria;FCB group;Bacteroidetes/Chlorobi group;Bacteroidetes;Bacteroidia;Bacteroidales;Bacteroidaceae;Bacteroides;Bacteroides sp. 3_1_33FAA;",0.029517
+"root;cellular organisms;Bacteria;FCB group;Bacteroidetes/Chlorobi group;Bacteroidetes;Bacteroidia;Bacteroidales;Bacteroidaceae;Bacteroides;Bacteroides sp. 9_1_42FAA;",0.054800
+"root;cellular organisms;Bacteria;FCB group;Bacteroidetes/Chlorobi group;Bacteroidetes;Bacteroidia;Bacteroidales;Bacteroidaceae;Bacteroides;Bacteroides uniformis;",0.018731
+"root;cellular organisms;Bacteria;FCB group;Bacteroidetes/Chlorobi group;Bacteroidetes;Bacteroidia;Bacteroidales;Bacteroidaceae;Bacteroides;Bacteroides vulgatus;",0.091740
+"root;cellular organisms;Bacteria;FCB group;Bacteroidetes/Chlorobi group;Bacteroidetes;Bacteroidia;Bacteroidales;Bacteroidaceae;Bacteroides;environmental samples <Bacteroides>;",0.033613
+"root;cellular organisms;Bacteria;FCB group;Bacteroidetes/Chlorobi group;Bacteroidetes;Bacteroidia;Bacteroidales;Porphyromonadaceae;",0.267727
+"root;cellular organisms;Bacteria;FCB group;Bacteroidetes/Chlorobi group;Bacteroidetes;Bacteroidia;Bacteroidales;Porphyromonadaceae;Parabacteroides;",0.014468
+"root;cellular organisms;Bacteria;FCB group;Bacteroidetes/Chlorobi group;Bacteroidetes;Bacteroidia;Bacteroidales;Porphyromonadaceae;Tannerella;",0.179225
+"root;cellular organisms;Bacteria;FCB group;Bacteroidetes/Chlorobi group;Bacteroidetes;Bacteroidia;Bacteroidales;Porphyromonadaceae;Tannerella;environmental samples <Tannerella>;",0.168542
+"root;cellular organisms;Bacteria;FCB group;Bacteroidetes/Chlorobi group;Bacteroidetes;Bacteroidia;Bacteroidales;Porphyromonadaceae;Tannerella;environmental samples <Tannerella>;Tannerella sp. CAG:118;",0.161540
+"root;cellular organisms;Bacteria;Proteobacteria;",0.013264
+"root;cellular organisms;Bacteria;Proteobacteria;Gammaproteobacteria;",0.011701
+"root;cellular organisms;Bacteria;Terrabacteria group;",3.926355
+"root;cellular organisms;Bacteria;Terrabacteria group;Firmicutes;",3.926355
+"root;cellular organisms;Bacteria;Terrabacteria group;Firmicutes;Clostridia;",2.170009
+"root;cellular organisms;Bacteria;Terrabacteria group;Firmicutes;Clostridia;Clostridiales;",2.168165
+"root;cellular organisms;Bacteria;Terrabacteria group;Firmicutes;Clostridia;Clostridiales;Clostridiaceae;",0.573180
+"root;cellular organisms;Bacteria;Terrabacteria group;Firmicutes;Clostridia;Clostridiales;Clostridiaceae;Clostridium;",0.564084
+"root;cellular organisms;Bacteria;Terrabacteria group;Firmicutes;Clostridia;Clostridiales;Clostridiaceae;Clostridium;Clostridium sp. 7_3_54FAA;",0.033954
+"root;cellular organisms;Bacteria;Terrabacteria group;Firmicutes;Clostridia;Clostridiales;Clostridiaceae;Clostridium;environmental samples <Clostridium>;",0.519512
+"root;cellular organisms;Bacteria;Terrabacteria group;Firmicutes;Clostridia;Clostridiales;Clostridiaceae;Clostridium;environmental samples <Clostridium>;Clostridium sp. CAG:122;",0.024672
+"root;cellular organisms;Bacteria;Terrabacteria group;Firmicutes;Clostridia;Clostridiales;Clostridiaceae;Clostridium;environmental samples <Clostridium>;Clostridium sp. CAG:7;",0.057572
+"root;cellular organisms;Bacteria;Terrabacteria group;Firmicutes;Clostridia;Clostridiales;Clostridiaceae;Clostridium;environmental samples <Clostridium>;Clostridium sp. CAG:91;",0.406301
+"root;cellular organisms;Bacteria;Terrabacteria group;Firmicutes;Clostridia;Clostridiales;Eubacteriaceae;",0.426397
+"root;cellular organisms;Bacteria;Terrabacteria group;Firmicutes;Clostridia;Clostridiales;Eubacteriaceae;Eubacterium;",0.426311
+"root;cellular organisms;Bacteria;Terrabacteria group;Firmicutes;Clostridia;Clostridiales;Eubacteriaceae;Eubacterium;[Eubacterium] eligens;",0.017120
+"root;cellular organisms;Bacteria;Terrabacteria group;Firmicutes;Clostridia;Clostridiales;Eubacteriaceae;Eubacterium;environmental samples <Eubacterium>;",0.080412
+"root;cellular organisms;Bacteria;Terrabacteria group;Firmicutes;Clostridia;Clostridiales;Eubacteriaceae;Eubacterium;environmental samples <Eubacterium>;Eubacterium eligens CAG:72;",0.017079
+"root;cellular organisms;Bacteria;Terrabacteria group;Firmicutes;Clostridia;Clostridiales;Eubacteriaceae;Eubacterium;environmental samples <Eubacterium>;Eubacterium sp. CAG:38;",0.039351
+"root;cellular organisms;Bacteria;Terrabacteria group;Firmicutes;Clostridia;Clostridiales;Eubacteriaceae;Eubacterium;Eubacterium ventriosum;",0.054911
+"root;cellular organisms;Bacteria;Terrabacteria group;Firmicutes;Clostridia;Clostridiales;Eubacteriaceae;Eubacterium;Eubacterium ventriosum;Eubacterium ventriosum ATCC 27560;",0.021639
+"root;cellular organisms;Bacteria;Terrabacteria group;Firmicutes;Clostridia;Clostridiales;Lachnospiraceae;",0.363397
+"root;cellular organisms;Bacteria;Terrabacteria group;Firmicutes;Clostridia;Clostridiales;Lachnospiraceae;Blautia;",0.050427
+"root;cellular organisms;Bacteria;Terrabacteria group;Firmicutes;Clostridia;Clostridiales;Lachnospiraceae;Blautia;[Ruminococcus] torques;",0.014264
+"root;cellular organisms;Bacteria;Terrabacteria group;Firmicutes;Clostridia;Clostridiales;Lachnospiraceae;Blautia;environmental samples <Blautia>;",0.018990
+"root;cellular organisms;Bacteria;Terrabacteria group;Firmicutes;Clostridia;Clostridiales;Lachnospiraceae;Blautia;environmental samples <Blautia>;Blautia sp. CAG:37;",0.017553
+"root;cellular organisms;Bacteria;Terrabacteria group;Firmicutes;Clostridia;Clostridiales;Lachnospiraceae;Butyrivibrio;",0.014922
+"root;cellular organisms;Bacteria;Terrabacteria group;Firmicutes;Clostridia;Clostridiales;Lachnospiraceae;Coprococcus;",0.020833
+"root;cellular organisms;Bacteria;Terrabacteria group;Firmicutes;Clostridia;Clostridiales;Lachnospiraceae;Lachnoclostridium;",0.020983
+"root;cellular organisms;Bacteria;Terrabacteria group;Firmicutes;Clostridia;Clostridiales;Lachnospiraceae;Roseburia;",0.121480
+"root;cellular organisms;Bacteria;Terrabacteria group;Firmicutes;Clostridia;Clostridiales;Lachnospiraceae;Roseburia;environmental samples <Roseburia>;",0.023373
+"root;cellular organisms;Bacteria;Terrabacteria group;Firmicutes;Clostridia;Clostridiales;Lachnospiraceae;Roseburia;Roseburia hominis;",0.034206
+"root;cellular organisms;Bacteria;Terrabacteria group;Firmicutes;Clostridia;Clostridiales;Lachnospiraceae;Roseburia;Roseburia intestinalis;",0.013384
+"root;cellular organisms;Bacteria;Terrabacteria group;Firmicutes;Clostridia;Clostridiales;Lachnospiraceae;unclassified Lachnospiraceae;",0.064933
+"root;cellular organisms;Bacteria;Terrabacteria group;Firmicutes;Clostridia;Clostridiales;Lachnospiraceae;unclassified Lachnospiraceae;[Eubacterium] rectale;",0.050647
+"root;cellular organisms;Bacteria;Terrabacteria group;Firmicutes;Clostridia;Clostridiales;Ruminococcaceae;",0.053206
+"root;cellular organisms;Bacteria;Terrabacteria group;Firmicutes;Clostridia;Clostridiales;Ruminococcaceae;Faecalibacterium;",0.014770
+"root;cellular organisms;Bacteria;Terrabacteria group;Firmicutes;Clostridia;Clostridiales;Ruminococcaceae;Ruminococcus;",0.030800
+"root;cellular organisms;Bacteria;Terrabacteria group;Firmicutes;Clostridia;Clostridiales;Ruminococcaceae;Ruminococcus;environmental samples <Ruminococcus>;",0.016673
+"root;cellular organisms;Bacteria;Terrabacteria group;Firmicutes;environmental samples <clostridial firmicutes>;",0.332982
+"root;cellular organisms;Bacteria;Terrabacteria group;Firmicutes;environmental samples <clostridial firmicutes>;Firmicutes bacterium CAG:56;",0.043656
+"root;cellular organisms;Bacteria;Terrabacteria group;Firmicutes;environmental samples <clostridial firmicutes>;Firmicutes bacterium CAG:65;",0.264458
+"root;Not assigned;",0.073759

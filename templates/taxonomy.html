@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+
+{% extends "index.html" %}
+{% block content %}
+
+<script src="https://d3js.org/d3.v4.min.js" charset="utf-8"></script>
+<script src="{{ url_for('static', filename='zoomchart.js') }}"></script>
+<div class="buttonContainer">
+  <div id="aliceButton" class="button_base b03_skewed_slide_in">
+    <div>Alice</div>
+    <div></div>
+    <div>Alice</div>
+  </div>
+  <div id="bobButton" class="button_base b03_skewed_slide_in">
+    <div>Bob</div>
+    <div></div>
+    <div>Bob</div>
+  </div>
+</div>
+<!-- <input type="button" id="aliceButton" value="Alice">
+<input type="button" id="bobButton" value="Bob"> -->
+
+<!-- Use any element to open the sidenav -->
+<div class="svgWrapper">
+  <svg id="containerSvg" width="100%" height="960"></svg>
+</div>
+
+
+<script type="text/javascript">
+
+var dataSet = {{ data | safe }};
+
+var bubbles = doMyPlot(dataSet);
+bubbles.init("Alice", "00.json")
+
+
+document.getElementById("aliceButton").addEventListener("click", function() {
+  bubbles.update("Alice", "00.json");
+});
+
+document.getElementById("bobButton").addEventListener("click", function() {
+  bubbles.update("Bob", "00.json");
+});
+
+
+</script>
+{% endblock %}

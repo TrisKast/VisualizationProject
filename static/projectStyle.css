@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+.col-1 {
+    background: darkblue;
+    flex: 1;
+}
+.col-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 7;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+}
+.content > article {
+    flex: 4;
+    min-height: 80vh;
+}
+
+h1 {
+    font-family: Arial, Helvetica;
+    color: darkblue;
+    text-align: left;
+    margin-left: 5px ;
+    margin-top: 2px;
+}
+
+h2 {
+    font-family: Arial, Helvetica;
+    color: dodgerblue;
+    text-align: left;
+    margin-left: 5px;
+}
+
+h3 {
+    font-family: Arial, Helvetica;
+    margin-left: 5px;
+    color: whitesmoke;
+}
+
+h4 {
+    font-family: Arial, Helvetica;
+    margin-left: 5px;
+    color: gold;
+}
+
+p {
+    font-family: Arial, Helvetica;
+    font-variant: small-caps;
+    margin-left: 40px;
+}
+
+
+label {
+    color: white;
+    font-size: 20px;
+}
+
+
+.line {
+    fill: none;
+    stroke-width: 3;
+}
+
+/* Style the dots by assigning a fill and stroke */
+.dot {
+    fill: #ffab00;
+    stroke: #fff;
+}

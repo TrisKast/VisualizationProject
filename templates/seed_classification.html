@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<style>
+  text.mono {
+    /*font-size: 9pt;*/
+    font-family: Consolas, courier;
+    fill: #aaa;
+  }
+</style>
+
+{% extends "index.html" %}
+{% block content %}
+
+<script src="https://d3js.org/d3.v4.min.js" charset="utf-8"></script>
+<script src="{{ url_for('static', filename='heatmap_chart.js') }}"></script>
+<script src="{{ url_for('static', filename='linechart.js') }}"></script>
+<!-- <input type="button" id="aliceButton" value="Alice">
+<input type="button" id="bobButton" value="Bob"> -->
+
+
+<script>
+    function get_data(subdict, key, level) {
+        if (level == undefined)
+            level = 0;
+
+        //console.log("subdict, path, length");
+        //console.log(subdict);
+
+        var root = subdict['path'];
+        //console.log(root);
+
+        var len = root.length -1;
+        //console.log(len);
+
+        if (root[len] == key) {
+            return subdict;
+        } else {
+            var children = subdict['children'];
+            for (var child in children) {
+                var childdict = children[child];
+                //console.log("child: " + child + " with dict:");
+                //console.log(childdict);
+
+                var solution = get_data(children[child], key, level+1);
+                if (solution != undefined)
+                    return solution;
+            }
+        }
+    }
+
+    function get_arrays_for_entry(dict, entry, index) {
+        subtree = get_data(dict[Object.keys(dataset)[0]], entry);
+        var categories = [];
+        var alice = [];
+        var bob = [];
+
+        for (var child in subtree['children']) {
+            var child_dict = subtree['children'][child];
+            var label = child_dict['path'][child_dict['path'].length-1];
+            var alice_value = child_dict['read_count'][index];
+            var bob_value = child_dict['read_count'][6 + index];
+
+            categories.push(label);
+            alice.push(alice_value);
+            bob.push(bob_value);
+        }
+        //console.log(categories);
+        //console.log(alice);
+        //console.log(bob);
+
+        return [categories, alice, bob];
+    }
+
+	// creating svg element
+	var dataset = {{ data | safe }};
+
+	heatmap = Heatmap("#content", dataset);
+	heatmap.init();
+	heatmap.doOnMouseOver();
+	heatmap.doWhenClicked();
+</script>
+{% endblock %}

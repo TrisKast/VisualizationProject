@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<style>
+  text.mono {
+    /*font-size: 9pt;*/
+    font-family: Consolas, courier;
+    fill: #aaa;
+  }
+</style>
+
+{% extends "index.html" %}
+{% block content %}
+
+<script src="https://d3js.org/d3.v4.min.js" charset="utf-8"></script>
+<script src="{{ url_for('static', filename='heatmap_chart.js') }}"></script>
+<script src="{{ url_for('static', filename='linechart.js') }}"></script>
+<!-- <input type="button" id="aliceButton" value="Alice">
+<input type="button" id="bobButton" value="Bob"> -->
+
+
+<script>
+	// creating svg element
+	var dataset = {{ data | safe }};
+
+	heatmap = Heatmap("#content", dataset);
+	heatmap.init();
+	heatmap.doOnMouseOver();
+	heatmap.doWhenClicked();
+</script>
+{% endblock %}

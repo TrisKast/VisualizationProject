@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<script src="https://d3js.org/d3.v4.min.js" charset="utf-8"></script>
+<body>
+
+<header id="header">
+    <div id="title">
+        <h>Visualisation of the ASARI time-series data</h>
+    </div>
+    <div id="hamburger" onclick="openNav()">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+</header>
+
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="{{ url_for('taxanomy') }}">Taxonomy</a>
+    <a href="{{ url_for('seed_classification') }}">SEED analysis</a>
+    <a href="{{ url_for('kegg_classification') }}">KEGG analysis</a>
+</div>
+
+<div>
+    <div id ="content" width="100%"></div>
+    {% block content %}
+    {% endblock %}
+</div>
+
+</body>
+</html>
+
+
+
+<script type="text/javascript">
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+    }
+
+   /* Set the width of the side navigation to 0 */
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
